@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+body {
+  background-color: black;
+  font-family: "EB Garamond", serif;
+}
+.navbar1 img {
+  width: 60px;
+  height: 60px;
+}
+.navbar3 img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  padding: 15px 25px;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+a:active {
+  color: red;
+}
+.navbar3 img:hover {
+  width: 43px;
+  height: 43px;
+  transition: 0.5s;
+}
+.divlar1 h1 {
+  color: white;
+  font-size: 50px;
+}
+.divlar1 p {
+  color: white;
+}
+.divlar1 button {
+  border-radius: 15px;
+  text-align: center;
+  border: none;
+  width: 100px;
+  transition: 0.5s;
+  margin-top: 20px;
+}
+.divlar2 img {
+  width: 800px;
+  height: 600px;
+  border-radius: 200px;
+}
+.divlar2 img:hover{
+  -webkit-box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+-moz-box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+transition: 0.5s;
+cursor: pointer;
+}
+.Bobo {
+  display: flex;
+  margin-top: 150px;
+}
+.divlar1 {
+  margin-right: 50px;
+  margin-top: 100px;
+}
+.divlar1 button:hover {
+  background-color: brown;
+  transition: 0.5s;
+}
+section img {
+  width: 400px;
+  height: 300px;
+}
+.cardlar1 h3 {
+  color: white;
+}
+.cardlar1 p {
+  color: white;
+}
+.cardlar2 h3 {
+  color: white;
+}
+.cardlar2 p {
+  color: white;
+}
+.cardlar3 h3 {
+  color: white;
+}
+.cardlar3 p {
+  color: white;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+  margin-top: 100px;
+  text-align: center;
+}
+.cardlar1 img{
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+}
+.cardlar2 img{
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+.cardlar3 img{
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+span{
+  color: red;
+}
+.cardlar1 img:hover{
+  -webkit-box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+-moz-box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+transition: 0.5s;
+cursor: pointer;
+}
+.cardlar2 img:hover{
+  -webkit-box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+-moz-box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+transition: 0.5s;
+cursor: pointer;
+
+}
+.cardlar3 img:hover{
+  -webkit-box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+-moz-box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+box-shadow: 0px 0px 10px 12px rgba(255, 55, 2, 0.2);
+transition: 0.5s;
+cursor: pointer;
+}
